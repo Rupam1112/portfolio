@@ -1,0 +1,74 @@
+.experience-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center; 
+    margin: 3rem 10% 3rem 10%;
+
+
+    .experience-left{
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 70%; 
+
+        .experience-header{
+            font-size: large;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+
+        .experience-detail{
+            color: #ffffff;
+
+            .detail-wrapper{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin: 2rem 10% 0 10%;
+                border-radius: 25px;
+                padding-left: 5%;
+                border: #576cbc dashed;
+
+
+                .details{
+                display: flex;
+                flex-direction: column;
+                font-size: large;
+
+                .details-header-wrapper{
+                    display: flex;
+                    flex-direction: row; 
+                    .details-header{
+                        display: flex;
+                        flex-direction: column; 
+                        padding-left: 5%;
+                    }
+                }
+
+                .company{
+                    font-size: medium;
+                    color: silver;
+                }
+
+                .date{
+                font-size: small;
+                color: silver;
+                }
+
+                .list{
+                    line-height: normal;
+                    font-weight: 300;
+                    margin-inline-start: 4rem;
+                }
+
+                li{
+                    white-space: nowrap;
+                }
+                
+            }
+            }
+        }
+    }
+}

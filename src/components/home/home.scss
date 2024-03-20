@@ -1,0 +1,40 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center; 
+    margin: 2rem 10% 0 10%;
+    
+    .home{
+        display: flex;
+        flex-direction: column;
+
+        .home-header{
+            font-weight: 800;
+            font-size: xx-large;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+
+                h1 {
+                    margin-bottom: 0px;
+                    margin-top: 0px;
+                }
+            
+        }
+
+        .home-details{
+            color: #ffffff;
+            font-family: serif;
+
+            h3 {
+                font-size: 1.75em;
+                line-height: 1.6 
+            }
+        }
+
+    }
+
+    .img{
+        filter: drop-shadow(0 0 0.75rem rgb(255, 247, 0));
+    }
+}

@@ -1,4 +1,6 @@
-    .dropdown {
+@import "../../../colors.scss";
+
+   .dropdown {
     position: relative;
     display: inline-block;
   }
@@ -15,15 +17,13 @@
   }
   
   .dropdown-content a {
-    color: white;
+    color: $white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-weight: 600;
   }
-  
-  .dropdown-content a:hover {background-color: #576cbc}
-  
+    
   .dropdown:hover .dropdown-content {
     display: block;
     right: 0;

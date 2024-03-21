@@ -1,3 +1,4 @@
+@import "../../colors.scss";
 .home-container{
     display: flex;
     flex-direction: row;
@@ -12,7 +13,7 @@
         .home-header{
             font-weight: 800;
             font-size: xx-large;
-            color: #ffffff;
+            color: $white;
             font-family: 'Courier New', Courier, monospace;
 
                 h1 {
@@ -23,7 +24,7 @@
         }
 
         .home-details{
-            color: #ffffff;
+            color: $white;
             font-family: serif;
 
             h3 {
@@ -36,7 +37,7 @@
 
     .img{
         width: 50%;
-        filter: drop-shadow(0 0 0.75rem rgb(255, 247, 0));
+        filter: drop-shadow(2px 4px 6px black);
     }
 }
 

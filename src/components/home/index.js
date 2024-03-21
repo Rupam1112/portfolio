@@ -12,7 +12,7 @@ const Home = () => {
         </div>
         <span className="home-details">
           <h3>
-            I'm a full stack developer with 5 years of experience <br />
+            I'm a full stack developer with 4 years of experience <br />
             using React and NodeJS . <br />
             Reach out if you'd like to know more.
           </h3>

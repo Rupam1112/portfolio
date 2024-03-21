@@ -42,10 +42,9 @@ const About = () => {
             <img src={uiIcon} />
             <div className="details">
               <p>
-                <b>Frontend Developer</b>
+                <b>Ui / Ux Enthusiast</b>
                 <br />
-                I'm a frontend developer with experience in building responsive
-                snd optimized sites
+                Passionate about building impressive yet user friendly websites.
               </p>
             </div>
           </div>

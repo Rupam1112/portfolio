@@ -1,3 +1,6 @@
+@import "../../colors.scss";
+
+
 .header-container{
     margin-top: 3rem;
     display: flex;
@@ -9,7 +12,7 @@
     letter-spacing: .2rem;
     font-weight: 800;
     font-size: x-large;
-    color: #ffffff;
+    color: $white;
     }
 
     .nav-items{
@@ -21,7 +24,7 @@
         font-size: 1.5rem;
         border-style: none;
         background-color: transparent; 
-        color: #ffffff;
+        color: $white;
         padding: 2rem;
         cursor: pointer;
     }

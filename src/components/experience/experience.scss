@@ -1,3 +1,4 @@
+@import "../../colors.scss";
 .experience-container{
     display: flex;
     flex-direction: row;
@@ -13,13 +14,13 @@
 
         .experience-header{
             font-size: large;
-            color: #ffffff;
+            color: $white;
             font-family: 'Courier New', Courier, monospace;
         }
 
 
         .experience-detail{
-            color: #ffffff;
+            color: $white;
 
             .detail-wrapper{
                 display: flex;
@@ -29,13 +30,14 @@
                 margin: 2rem 10% 0 10%;
                 border-radius: 25px;
                 padding-left: 5%;
-                border: #576cbc dashed;
+                border: $white dashed;
 
 
                 .details{
                 display: flex;
                 flex-direction: column;
                 font-size: large;
+                padding-right: 2rem;
 
                 .details-header-wrapper{
                     display: flex;
@@ -49,12 +51,12 @@
 
                 .company{
                     font-size: medium;
-                    color: silver;
+                    color: $silver;
                 }
 
                 .date{
                 font-size: small;
-                color: silver;
+                color: $silver;
                 }
 
                 .list{
@@ -77,7 +79,7 @@
     .experience-container{
         flex-direction: column;
         gap: 23px;
-        text-align: center;
+        text-align: left;
     
 
     .experience-left .experience-detail .detail-wrapper .details .details-header-wrapper{

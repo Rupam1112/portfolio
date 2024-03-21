@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.scss";
+import Dropdown from "./dropdown";
 const Header = () => {
   const items = [
     { key: "about", label: "About" },
@@ -18,6 +19,9 @@ const Header = () => {
             <button className="items">{item.label}</button>
           </a>
         ))}
+      </div>
+      <div className="dropdown">
+        <Dropdown items={items} />
       </div>
     </div>
   );

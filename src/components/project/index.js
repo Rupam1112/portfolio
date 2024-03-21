@@ -13,9 +13,12 @@ const Project = () => {
       <div className="projects">
         <div className="detail-wrapper">
           <div className="details">
-            <img src={weatherApp} className="img" />
+            <img src={weatherApp} className="project-img" />
             <b>Weather App</b>
-            Weather app to get real time weather data from all around the globe.
+            <span className="text">
+              Weather app to get real time weather data from all around the
+              globe.
+            </span>
             <div className="stack-wrapper">
               <div className="stack">React</div>
               <div className="stack">Scss</div>
@@ -32,16 +35,18 @@ const Project = () => {
 
         <div className="detail-wrapper">
           <div className="details">
-            <img src={portfolio} className="img" />
+            <img src={portfolio} className="project-img" />
             <b>Portfolio</b>
-            My own portfolio/resume site with downloadable resume.
+            <span className="text">
+              My own portfolio/resume site with downloadable resume.
+            </span>
             <div className="stack-wrapper">
               <div className="stack">React</div>
               <div className="stack">Scss</div>
               <div className="stack">Prettier</div>
             </div>
             <a
-              href="https://github.com/Rupam1112/react-weather-app"
+              href="https://github.com/Rupam1112/portfolio"
               target="_blank"
             >
               <button className="btn-source">Source</button>
@@ -51,9 +56,11 @@ const Project = () => {
 
         <div className="detail-wrapper">
           <div className="details">
-            <img src={edu} className="img" />
+            <img src={edu} className="project-img" />
             <b>EduSmart</b>
-            Education portal to manage multiple schools , teachers etc.
+            <span className="text">
+              Education portal to manage multiple schools , teachers etc.
+            </span>
             <div className="stack-wrapper">
               <div className="stack">React</div>
               <div className="stack">Formik</div>

@@ -36,10 +36,11 @@
                 word-wrap: break-word; 
                 word-break: break-word;
 
-                .img{
+                .project-img{
                     border-radius: 25px;
                     height: 50%;
                     width: 100%;
+                    filter: drop-shadow(0 0 0.75rem rgb(255, 247, 0));
                 }
 
                 .stack-wrapper{
@@ -69,9 +70,26 @@
             }
         
     }
+}
 
-    .img{
-        filter: drop-shadow(0 0 0.75rem rgb(255, 247, 0));
-    }
+@media screen and (max-width:830px) {
+    .project-container {
+        align-items: center;
+    .projects{
+        flex-direction: column;
+        gap: 40px; 
     
+
+    .detail-wrapper .details {
+        align-items: center;
+        gap: 10px;
+
+        .text{
+            text-align: center;
+        }
+        .project-img{
+        width: 50%;
+    }}}
+}
+
 }

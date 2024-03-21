@@ -35,6 +35,18 @@
     }
 
     .img{
+        width: 50%;
         filter: drop-shadow(0 0 0.75rem rgb(255, 247, 0));
+    }
+}
+
+@media screen and (max-width:830px) {
+    .home-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 23px;
+        .home{
+            align-items: center; 
+        }
     }
 }
